@@ -1,6 +1,3 @@
-provider "aws" {
-  region = "ap-south-1"
-}
 
 resource "aws_instance" "myserver" {
   ami           = "ami-0db56f446d44f2f09"
